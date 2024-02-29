@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Mi Portafolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Acerca de mí</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Habilidades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portafolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Juan Pablo Montoya Jiménez</h2><br>
+        <p>Bienvenidos a mi portafolio profesional. Soy Juan Pablo, un futuro ingeniero de sistemas interesado
+          el area de la ciberseguridad y con una formación académica en la <i>Universidad Catolica Boliviana</i> de 3 años de experiencia 
+          práctica.<br>
+          He adquirido las habilidades necesarias a la hora de aprender un nuevo lenguaje, software, sistema operativo u otro. <br>
+          Mi objetivo como profesional es que con los proyectos que desarrolle sea posible la correcta resolucion de los problemas.
+          Estoy comprometido con esforzarme dando el maximo en todo lo que hago, es por esto que aqui en mi portafolio esta 
+          la muestra de mis trabajos hasta la fecha.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="media/me.png" class="img-fluid mx-auto d-block" alt="Mi foto" width="300px" height="400px">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container text-center">
+    <h2>Habilidades</h2>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="media/habilidad1.png" class="img-fluid" alt="Habilidad 1" width="500px" height="190px">
+        <h3 class="mt-3">Lenguajes de programacion</h3>
+        <p>Tengo el conocimiento de varios lenguajes de programación más utilizados hoy en dia como ser Python, C++, C#, y otros.</p>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#cssModal">Ver</button>
+      </div>
+      <div class="col-md-6">
+        <img src="media/habilidad2.png" class="img-fluid" style="max-width: 250px;" alt="Habilidad 2">
+        <h3 class="mt-3">Bases de datos</h3>
+        <p>Utilize ciertas bases de datos en el diseño y administración de mis proyectos.</p>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#htmlModal">Ver</button>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="media/habilidad3.png" class="img-fluid" style="max-width: 400px;" alt="Habilidad 3">
+        <h3 class="mt-3">Frontend</h3>
+        <p>A lo largo de mis estudios desarrolle distintos sitios web aplicando mis 
+        conocimientos en HTML, CSS y JavaScript, así como frameworks o bibliotecas populares.</p>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#jsModal">Ver</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="text-center">
+  <div class="container">
+    <h2>Mis Proyectos</h2>
+    <div class="row mt-5 justify-content-center">
+      <div class="col-md-4">
+        <img src="media/proyecto1.png" class="img-fluid" alt="Proyecto 1">
+        <h3 class="mt-3">Blog personal</h3>
+        <p>Este proyecto de blog personal fue hecho para compartir mis recomendaciones sobre mis series, películas y mangas favoritos. 
+        Como un gran entusiasta del cine y el anime,quise crear este blog es mi espacio para expresar para poder conectar con otros aficionados que comparten intereses similares.</p>
+        <button class="btn btn-primary" data-toggle="modal" onclick="window.location.href='https://drive.google.com/file/d/1DMv_f9xB5UkogLGucoqpSuOtUTI0THO5/view?usp=sharing'">Ver proyecto</button>
+      </div>
+      <div class="col-md-4">
+        <img src="media/proyecto2.png" class="img-fluid" alt="Proyecto 2">
+        <h3 class="mt-3">Tic Tac Toe en C# con Base de datos</h3>
+        <p>Realizamos un proyecto el cual tienes el juego tic tac toe el cual puede ser de 1 jugador (contra la maquina) o 2 jugadores donde 
+        cada partida se guarda y se puede repetir las jugadas hechas en cada partida.
+        </p>
+        <button class="btn btn-primary" data-toggle="modal" onclick="window.location.href='https://drive.google.com/file/d/1Kg6oaulHmOfx0xN302Lo2dApeKwaMand/view?usp=sharing'">Ver proyecto</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class=" text-center">
+  <div class="container">
+    <h2>Mis Servicios</h2>
+    <div class="row mt-5 justify-content-center">
+      <div class="col-md-4">
+        <img src="media/servicio1.png" class="img-fluid" style="max-width: 300px;" alt="Servicio 1">
+        <h3 class="mt-3">Diseño web</h3>
+        <p>Diseño y desarrollo de sitios web personalizados, desde páginas estáticas hasta aplicaciones web dinámicas</p>
+      </div>
+      <div class="col-md-4">
+        <img src="media/servicio2.png" class="img-fluid" style="max-width: 300px;" alt="Servicio 2">
+        <h3 class="mt-3">Diseño de aplicaciones</h3>
+        <p>Creación de aplicaciones según las necesidades específicas 
+        del cliente, utilizando los lenguajes de programación conocidos por mi persona y distintas tecnologías como ser la utilizacion de bases de datos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Contacto</h2>
+        <ul>
+          <li><strong>Email Personal:</strong> <a href="mailto:juanpimontoya1@gmail.com">juanpimontoya1@gmail.com</a></li>
+          <li><strong>Email Trabajo:</strong> <a href="mailto:juanpimontoya1@gmail.com">juan.montoya@ucb.edu.bo</a></li>
+          <li><strong>Teléfono celular:</strong> +591 60343110</li>
+          <li><strong>Cuenta de GitHub:</strong> <a href="https://github.com/JuanpiMontoya" target="_blank">Link a mi cuenta de GitHub</a></li>
+          <li><strong>Universidad:</strong> Universidad Catolica Boliviana</li>
+          <li><strong>Dirección:</strong> Av. Melchor Urquidi 1952 - Edificio Residenza</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modales para cada habilidad -->
+<div class="modal fade" id="cssModal" tabindex="-1" role="dialog" aria-labelledby="cssModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cssModalLabel">Lenguajes de programación</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Los lenguajes de programación son sistemas formales diseñados para expresar instrucciones que pueden ser ejecutadas por una computadora.
+        Esto es fundamental ya que permiten a los programadores comunicarse con las máquinas para la creacion de software  sea este en gran o en pequeña escala.<br>
+        <li><strong>Python:</strong> Es un lenguaje de programación el cual presenta estructuras de datos de alto nivel eficientes y 
+        un sistema de programación orientado a objetos.Es ampliamente utilizado en las aplicaciones web, el desarrollo de software, 
+        la ciencia de datos y el machine learning</li>
+        <li><strong>C++:</strong> Es un lenguaje de programación cuyo origen surgio como una extensión orientada a la manipulacion 
+        de objetos del lenguaje C y añadir mecanismos que permiten la manipulación de los mismos.</li>
+        <li><strong>C#:</strong> Es un lenguaje de programación basado en objetos el cual permite a los desarrolladores crear muchos 
+        tipos de aplicaciones seguras y sólidas que se ejecutan en . NET</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="htmlModal" tabindex="-1" role="dialog" aria-labelledby="htmlModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="htmlModalLabel">Bases de datos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Una base de datos se encarga de la recopilación de datos sistemática y almacenada electrónicamente. 
+        Puede contener cualquier tipo de dato, incluidos palabras, números, imágenes, vídeos y archivos. 
+        <li><strong>MySQL:</strong> Es un sistema de gestión de bases de datos relacional  considerada 
+        como la base de datos de código abierto más popular del mundo utilizada sobre todo para entornos de desarrollo web.</li>
+        <li><strong>MongoDB:</strong> es un sistema de base de datos NoSQL, orientado a documentos y de código abierto el cual guarda estructuras 
+        de datos BSON (similar a JSON) con un esquema dinámico.</li>
+        <li><strong>Postgres:</strong> Es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto con 
+        una sólida reputación por su fiabilidad, flexibilidad y soporte de estándares técnicos abiertos.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="jsModal" tabindex="-1" role="dialog" aria-labelledby="jsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="jsModalLabel">Frontend</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        El front-end se refiere a la práctica de construir y diseñar la interfaz de usuario de un sitio web 
+        utilizando las tecnologías adecuadas como HTML, CSS y JavaScript lo cual permite a los usuarios interactuar con la pagina web 
+        y que sea visualmente atractiva.
+        <li><strong>HTML:</strong> Es el lenguaje de marcado utilizado en la creación de páginas web donde se estructuran y desplegan sus contenidos.</li>
+        <li><strong>CSS:</strong> Es un lenguaje informático que especifica cómo se presentan los documentos web a los usuarios: el como se diseñan, compaginan, etc.</li>
+        <li><strong>JS:</strong> Es un lenguaje de programación orientado a objetos que se utiliza para hacer páginas web interactivas.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
